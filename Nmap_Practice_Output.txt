@@ -1,0 +1,22 @@
+FICTIONAL SAMPLE - DO NOT SCAN THIS ADDRESS
+
+$ sudo nmap -sS -sV -O 192.0.2.10
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-10-20 10:15 CDT
+Nmap scan report for 192.0.2.10
+Host is up (0.00041s latency).
+Not shown: 997 closed tcp ports (reset)
+
+PORT     STATE     SERVICE   VERSION
+22/tcp   open      ssh       OpenSSH 8.9p1 (Ubuntu Linux; protocol 2.0)
+80/tcp   open      http      Apache httpd 2.4.52 ((Ubuntu))
+443/tcp  filtered  https
+
+Device type: general purpose
+Running: Linux 5.X|6.X
+OS details: Linux 5.4 - 6.5
+Network Distance: 1 hop
+
+MAC Address: 08:00:27:AA:BB:CC (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 6.31 seconds
